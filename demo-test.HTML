@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Title for Practice</title>
+<style>
+.dv {
+  font-style: bold; 
+  font-size: 40px; 
+  color: blue;
+}
+.green {
+	color:green;
+	font-size: 20px;
+	font-style: italic;
+}
+#black {
+	color:black;
+	font-size: 30px;
+	font-style: bold;
+}
+div.red {
+	color:red;
+	font-size: 25px;
+	font-style: initial;
+}
+div > p {
+	color:pink;
+	font-size: 25px;
+	font-style: bold;
+}
+div div {
+	color:orange;
+	font-size: 25px;
+	font-style: italic;
+}
+a:link {
+	/*text-decoration: blink;*/
+	background-color: black;
+	/*border: 1px solid black;*/
+	color: blue;
+	/*display: ruby-base;*/ 
+	text-align: center;
+	width: 500px;
+}
+a:visited {
+	/*text-decoration: blink;
+	background-color: grey;*/
+	border: 1px solid black;
+	color: green;
+	width: 500px;
+}
+a:hover {
+	text-decoration: blink;
+	background-color: grey;
+	/*border: 1px solid black;*/
+	color: red;
+	display: ruby-base;
+}
+a:active {
+	text-decoration: blink;
+	background-color: yellow;
+	border: 1px solid black;
+	color: green;
+	display: ruby-base;
+}
+section li:nth_child(odd) {
+	background-color: grey;
+}
+</style>
+</head>
+<body>
+<p class="green">This is from demo folder</p>
+<p id="black">Welcome!</p>
+<div class="dv"><span>&quot;Hii..Its me, &lt; us and &gt; you &quot;</span></div>
+<div class="red">Element with Class Selector</div>
+<div><p>Child Selector</p></div>
+<div>
+	<div>
+		<div>Descendent Selector</div>
+	</div>
+</div>
+<div style="width: 50px; color: blue;">Ordered List</div>
+<ol>
+	<li>FRUITS</li>
+	<ul>
+		<li>Banana</li>
+		<li>Mango</li>
+		<li>Apple</li>
+		<li>Grapes</li>
+	</ul>
+	<li>VEGETABLE</li>
+	<ul>
+		<li>Potato</li>
+		<li>Onion</li>
+		<li>Chilly</li>
+		<li>Tomato</li>
+	</ul>
+</ol>
+<p>Lets link to the gmail to show my all mails!
+	<a href="mail.google.com" target="_blank" title="Check mails">Gmail</a>
+</p>
+<p>
+	<img src="jeff_bezos.jpg" width="400" height="235" alt="Jeff Bezos Image"><div class="dv">&quot; World's richest man!&quot;</div>
+</p>
+<ul>
+	<li>Pseudo Class Selector</li>
+	<section>
+	<ul>
+		<li>:link</li>
+		<li>:visited</li>
+		<li>:hover</li>
+		<li>:active</li>
+		<li>:nth-child(...)</li><br>
+	</ul>
+	</section>
+	<li>Diffent Links</li>
+	<ul>
+		<li><a href="www.w3schools.com" target="_blank">w3schools</a></li>
+		<li><a href="www.tutorialspoint.com" target="_blank">Tutorials Point</a></li>
+		<li><a href="www.geeksforgeeks.com" target="_blank">GeeksforGeeks</a></li>
+	</ul>
+</ul>
+</body>
+</html>
